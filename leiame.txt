@@ -1,0 +1,13 @@
+﻿Conversão da lista de opcodes para .json > Um Geek
+
+instale a extenção "Lua language support for Visual Studio Code" publisher by keyring
+
+*https://github.com/keyring/vsc-lua.git*
+
+Abra a pasta a baixo.
+
+C:\Users\??UserName??\.vscode\extensions\keyring.lua-0.0.9\snippets
+
+Faça copia de segurança do arquivo "snippets.json"
+
+Substitua o arquivo "snippets.json"
