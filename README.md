@@ -29,6 +29,14 @@ replace the file **snippets.json**
 
 Author snippets.json modified: Um Geek
 
+
+
 Original work
 
 *https://github.com/keyring/vsc-lua.git*
+
+
+Moonloader author 
+
+https://github.com/THE-FYP
+
