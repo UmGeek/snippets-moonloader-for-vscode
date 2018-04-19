@@ -1,13 +1,9 @@
 # snippets-moonloader-for-vscode
 Auto completar lua moonloader para vscode
 
-Open vscode,Opend menu "View > Extensions" or press CTRL + Shift + X
+[wiki](https://github.com/UmGeek/snippets-moonloader-for-vscode/wiki).
 
-Instal 
-#keyring - Lua language support for Visual Studio Code
+Author snippets.json modified: Um Geek
 
-Open the directory "@Disc:/Users/@User_Name/.vscode/extensions/keyring.lua-0.0.9/snippets"
-
-Back up the original "snippets.json"
-
-Paste and substitute "snippets.json"
+Links
+*https://github.com/keyring/vsc-lua.git*
