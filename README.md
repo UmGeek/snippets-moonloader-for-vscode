@@ -1,5 +1,3 @@
-Welcome to the snippets-moonloader-for-vscode wiki!
-
 **## VSCode**
 
 Autocomplete support for moon scripts with Moonloader and MoonAdditions functions
