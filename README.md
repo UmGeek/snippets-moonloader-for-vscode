@@ -5,5 +5,6 @@ Auto completar lua moonloader para vscode
 
 Author snippets.json modified: Um Geek
 
-Links
+Original work
+
 *https://github.com/keyring/vsc-lua.git*
