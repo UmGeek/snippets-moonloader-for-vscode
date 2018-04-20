@@ -1,10 +1,7 @@
-![image 2](https://i62.servimg.com/u/f62/19/64/32/02/rq9tur10.png)
 
+Autocomplete support Moonloader and MoonAdditions functions for vscode
 
-
-Autocomplete support for moon scripts with Moonloader and MoonAdditions functions
-
-![image 1](https://i62.servimg.com/u/f62/19/64/32/02/screen48.jpg)
+![image 1](https://i.imgur.com/ewJWlvS.gif)
 
 **## installation**
 
