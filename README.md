@@ -25,8 +25,11 @@ replace the file **snippets.json**
 
 
 Author snippets.json modified: Um Geek
-<br/><a url='http://brmodstudio.forumeiros.com/t7283-moonloader-suporte-autocompletar-para-vscode'>more information[pt-br]</a>
+<br/>
+<br/>more information:
+<br/>http://brmodstudio.forumeiros.com/t7283-moonloader-suporte-autocompletar-para-vscode
 
-
-
-Moonloader author: https://github.com/THE-FYP
+<br/>
+<b>Moonloader</b><br/>
+DEVELOPERS: FYP, hnnssy, EvgeN 1137<br/>
+SPECIAL THANKS: DK22Pac, MISTER_GONWIK, 4el0ve4ik, EXPORT, Garrus, CLEO 4<br/>
