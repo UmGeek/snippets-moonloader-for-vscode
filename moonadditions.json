@@ -1,0 +1,1208 @@
+{
+	"MoonAdditions": {
+		"body": "local mad = require('MoonAdditions')",
+		"description": "add MoonAdditions require",
+		"prefix": "MoonAdditions",
+		"scope": "source.lua"
+	},
+	"﻿set_vehicle_model_alpha": {
+		"body": "﻿set_vehicle_model_alpha(${1:Vehicle handle},${2:uint alpha})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "﻿set_vehicle_model_alpha",
+		"scope": "source.lua"
+	},
+	"set_char_model_alpha": {
+		"body": "set_char_model_alpha(${1:Ped handle},${2:uint alpha})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "set_char_model_alpha",
+		"scope": "source.lua"
+	},
+	"set_object_model_alpha": {
+		"body": "set_object_model_alpha(${1:Object handle},${2:uint alpha})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "set_object_model_alpha",
+		"scope": "source.lua"
+	},
+	"get_entity_type_and_class": {
+		"body": "get_entity_type_and_class(${1:uint entity_ptr})",
+		"description": "MoonAdditions\n\nreturn → uint type, uint class \n",
+		"prefix": "get_entity_type_and_class",
+		"scope": "source.lua"
+	},
+	"get_vehicle_number_of_collided_entites": {
+		"body": "get_vehicle_number_of_collided_entites(${1:Vehicle handle})",
+		"description": "MoonAdditions\n\nreturn → int number \n",
+		"prefix": "get_vehicle_number_of_collided_entites",
+		"scope": "source.lua"
+	},
+	"get_char_number_of_collided_entites": {
+		"body": "get_char_number_of_collided_entites(${1:Ped handle})",
+		"description": "MoonAdditions\n\nreturn → int number \n",
+		"prefix": "get_char_number_of_collided_entites",
+		"scope": "source.lua"
+	},
+	"set_object_model_alpha": {
+		"body": "set_object_model_alpha(${1:Object handle},${2:uint alpha})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "set_object_model_alpha",
+		"scope": "source.lua"
+	},
+	"get_entity_type_and_class": {
+		"body": "get_entity_type_and_class(${1:uint entity_ptr})",
+		"description": "MoonAdditions\n\nreturn → uint type, uint class \n",
+		"prefix": "get_entity_type_and_class",
+		"scope": "source.lua"
+	},
+	"get_vehicle_number_of_collided_entites": {
+		"body": "get_vehicle_number_of_collided_entites(${1:Vehicle handle})",
+		"description": "MoonAdditions\n\nreturn → int number \n",
+		"prefix": "get_vehicle_number_of_collided_entites",
+		"scope": "source.lua"
+	},
+	"get_char_number_of_collided_entites": {
+		"body": "get_char_number_of_collided_entites(${1:Ped handle})",
+		"description": "MoonAdditions\n\nreturn → int number \n",
+		"prefix": "get_char_number_of_collided_entites",
+		"scope": "source.lua"
+	},
+	"get_object_number_of_collided_entites": {
+		"body": "get_object_number_of_collided_entites(${1:Object handle})",
+		"description": "MoonAdditions\n\nreturn → int number \n",
+		"prefix": "get_object_number_of_collided_entites",
+		"scope": "source.lua"
+	},
+	"get_vehicle_collided_entites": {
+		"body": "get_vehicle_collided_entites(${1:Vehicle handle})",
+		"description": "MoonAdditions\n\nreturn → table<uint> entities \n",
+		"prefix": "get_vehicle_collided_entites",
+		"scope": "source.lua"
+	},
+	"get_char_collided_entites": {
+		"body": "get_char_collided_entites(${1:Ped handle})",
+		"description": "MoonAdditions\n\nreturn → table<uint> entities \n",
+		"prefix": "get_char_collided_entites",
+		"scope": "source.lua"
+	},
+	"get_object_collided_entites": {
+		"body": "get_object_collided_entites(${1:Object handle})",
+		"description": "MoonAdditions\n\nreturn → table<uint> entities \n",
+		"prefix": "get_object_collided_entites",
+		"scope": "source.lua"
+	},
+	"set_car_window_state": {
+		"body": "set_car_window_state(${1:Vehicle handle},${2:uint window_id},${3:bool state})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "set_car_window_state",
+		"scope": "source.lua"
+	},
+	"get_char_max_health": {
+		"body": "get_char_max_health(${1:Ped handle})",
+		"description": "MoonAdditions\n\nreturn → float health \n",
+		"prefix": "get_char_max_health",
+		"scope": "source.lua"
+	},
+	"get_circles_intersection": {
+		"body": "get_circles_intersection(${1:float x1},${2:float y1},${3:floar radius1},${4:float x2},${5:float y2},${6:float radius2})",
+		"description": "MoonAdditions\n\nreturn → bool result, float x1, float y1, float x2, float y2 \n",
+		"prefix": "get_circles_intersection",
+		"scope": "source.lua"
+	},
+	"get_model_txd_id": {
+		"body": "get_model_txd_id(${1:Model model})",
+		"description": "MoonAdditions\n\nreturn → int txd \n",
+		"prefix": "get_model_txd_id",
+		"scope": "source.lua"
+	},
+	"get_model_crc32_key": {
+		"body": "get_model_crc32_key(${1:Model model})",
+		"description": "MoonAdditions\n\nreturn → uint crc32 \n",
+		"prefix": "get_model_crc32_key",
+		"scope": "source.lua"
+	},
+	"draw_temporary_shadow": {
+		"body": "draw_temporary_shadow(${1:uint shadow_type},${2:float x},${3:float y},${4:float z},${5:float width},${6:float height},${7:float rotation},${8:float distance},${9:uint/Texture texture},${10:uint intensity},${11:[int color_r},${12:int color_g},${13:int color_b},${14:int color_a},${15:uint shadow_data},${16:float scale},${17:bool draw_on_buildings},${18:bool draw_on_water]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_temporary_shadow",
+		"scope": "source.lua"
+	},
+	"draw_permanent_shadow": {
+		"body": "draw_permanent_shadow(${1:uint shadow_type},${2:float x},${3:float y},${4:float z},${5:float width},${6:float height},${7:float rotation},${8:float distance},${9:uint/Texture texture},${10:uint intensity},${11:uint time},${12:[int color_r},${13:int color_g},${14:int color_b},${15:int color_a]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_permanent_shadow",
+		"scope": "source.lua"
+	},
+	"draw_light": {
+		"body": "draw_light(${1:uint light_type},${2:float x},${3:float y},${4:float z},${5:float dir_x},${6:float dir_y},${7:float dir_z},${8:float radius},${9:[int color_r},${10:int color_g},${11:int color_b},${12:int color_a},${13:uint entity]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_light",
+		"scope": "source.lua"
+	},
+	"draw_corona": {
+		"body": "draw_corona(${1:uint/Texture texture},${2:float x},${3:float y},${4:float z},${5:float size},${6:[int color_r},${7:int color_g},${8:int color_b},${9:int color_a},${10:uint entity]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_corona",
+		"scope": "source.lua"
+	},
+	"draw_corona_ex": {
+		"body": "draw_corona_ex(${1:uint/Texture texture},${2:float x},${3:float y},${4:float z},${5:float size},${6:[int color_r},${7:int color_g},${8:int color_b},${9:int color_a},${10:uint entity},${11:float far_clip},${12:float near_clip},${13:int flare},${14:bool reflection},${15:bool check_obstacles},${16:int flash_while_fading},${17:float fade_speed},${18:bool only_from_below]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_corona_ex",
+		"scope": "source.lua"
+	},
+	"get_sun_colors": {
+		"body": "get_sun_colors()",
+		"description": "MoonAdditions\n\nreturn → int core_r, int core_g, int core_b, int corona_r, int corona_g, int corona_b \n",
+		"prefix": "get_sun_colors",
+		"scope": "source.lua"
+	},
+	"get_sun_size": {
+		"body": "get_sun_size()",
+		"description": "MoonAdditions\n\nreturn → float core, float corona \n",
+		"prefix": "get_sun_size",
+		"scope": "source.lua"
+	},
+	"get_sun_screen_coordinates": {
+		"body": "get_sun_screen_coordinates()",
+		"description": "MoonAdditions\n\nreturn → float x, y \n",
+		"prefix": "get_sun_screen_coordinates",
+		"scope": "source.lua"
+	},
+	"get_sun_world_position": {
+		"body": "get_sun_world_position()",
+		"description": "MoonAdditions\n\nreturn → bool visible, float x, float y, float z \n",
+		"prefix": "get_sun_world_position",
+		"scope": "source.lua"
+	},
+	"get_current_weather": {
+		"body": "get_current_weather()",
+		"description": "MoonAdditions\n\nreturn → int weather \n",
+		"prefix": "get_current_weather",
+		"scope": "source.lua"
+	},
+	"get_traffic_lights_color": {
+		"body": "get_traffic_lights_color()",
+		"description": "MoonAdditions\n\nreturn → int color1, color2 \n",
+		"prefix": "get_traffic_lights_color",
+		"scope": "source.lua"
+	},
+	"get_car_light_damage_status": {
+		"body": "get_car_light_damage_status(${1:Vehicle handle},${2:int light_id})",
+		"description": "MoonAdditions\n\nreturn → uint status \n",
+		"prefix": "get_car_light_damage_status",
+		"scope": "source.lua"
+	},
+	"set_car_light_damage_status": {
+		"body": "set_car_light_damage_status(${1:Vehicle handle},${2:int light_id},${3:uint status})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "set_car_light_damage_status",
+		"scope": "source.lua"
+	},
+	"get_vehicle_class": {
+		"body": "get_vehicle_class(${1:Vehicle handle})",
+		"description": "MoonAdditions\n\nreturn → uint class, uint subclass \n",
+		"prefix": "get_vehicle_class",
+		"scope": "source.lua"
+	},
+	"get_vehicle_dummy_element_position": {
+		"body": "get_vehicle_dummy_element_position(${1:Vehicle handle},${2:uint element},${3:[bool world},${4:bool invert_x]})",
+		"description": "MoonAdditions\n\nreturn → float x, float y, float z \n",
+		"prefix": "get_vehicle_dummy_element_position",
+		"scope": "source.lua"
+	},
+	"create_projectile": {
+		"body": "create_projectile(${1:uint weapon_id},${2:float src_x},${3:float src_y},${4:float src_z},${5:float dir_x},${6:float dir_y},${7:float dir_z},${8:float force},${9:uint source_entity_ptr},${10:uint target_entity_ptr})",
+		"description": "MoonAdditions\n\nreturn → bool result \n",
+		"prefix": "create_projectile",
+		"scope": "source.lua"
+	},
+	"get_game_volume": {
+		"body": "get_game_volume()",
+		"description": "MoonAdditions\n\nreturn → int sfx_volume, int radio_volume \n",
+		"prefix": "get_game_volume",
+		"scope": "source.lua"
+	},
+	"get_collision_between_points": {
+		"body": "get_collision_between_points(${1:float origin_x},${2:float origin_y},${3:floar origin_z},${4:float target_x},${5:float target_y},${6:float target_z},${7:[table<string=bool> flags},${8:uint ignore_entity_ptr]})",
+		"description": "MoonAdditions\n\nreturn → table collision \n",
+		"prefix": "get_collision_between_points",
+		"scope": "source.lua"
+	},
+	"draw_spotlight": {
+		"body": "draw_spotlight(${1:float origin_x},${2:float origin_y},${3:floar origin_z},${4:float target_x},${5:float target_y},${6:float target_z},${7:float base_radius},${8:float target_radius},${9:bool shadow},${10:float shadow_intensity})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_spotlight",
+		"scope": "source.lua"
+	},
+	"draw_rect": {
+		"body": "draw_rect(${1:float left},${2:float top},${3:float right},${4:float bottom},${5:int r},${6:int g},${7:int b},${8:int a},${9:[float angle]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_rect",
+		"scope": "source.lua"
+	},
+	"draw_rect_with_gradient": {
+		"body": "draw_rect_with_gradient(${1:float left},${2:float top},${3:float right},${4:float bottom},${5:int r1},${6:int g1},${7:int b1},${8:int a1},${9:int r2},${10:int g2},${11:int b2},${12:int a2},${13:int r3},${14:int g3},${15:int b3},${16:int a3},${17:int r4},${18:int g4},${19:int b4},${20:int a4},${21:[float angle]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_rect_with_gradient",
+		"scope": "source.lua"
+	},
+	"get_all_objects": {
+		"body": "get_all_objects(${1:float x},${2:float y},${3:float z},${4:[float radius},${5:bool sphere]})",
+		"description": "MoonAdditions\n\nreturn → table<Object> objects \n",
+		"prefix": "get_all_objects",
+		"scope": "source.lua"
+	},
+	"get_all_characters": {
+		"body": "get_all_characters(${1:float x},${2:float y},${3:float z},${4:[float radius},${5:bool skip_dead},${6:bool sphere]})",
+		"description": "MoonAdditions\n\nreturn → table<Ped> chars \n",
+		"prefix": "get_all_characters",
+		"scope": "source.lua"
+	},
+	"get_all_vehicles": {
+		"body": "get_all_vehicles(${1:float x},${2:float y},${3:float z},${4:[float radius},${5:bool skip_wrecked bool sphere]})",
+		"description": "MoonAdditions\n\nreturn → table<Vehicle> vehicles \n",
+		"prefix": "get_all_vehicles",
+		"scope": "source.lua"
+	},
+	"get_object_matrix": {
+		"body": "get_object_matrix(${1:Object handle})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "get_object_matrix",
+		"scope": "source.lua"
+	},
+	"get_char_matrix": {
+		"body": "get_char_matrix(${1:Ped handle})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "get_char_matrix",
+		"scope": "source.lua"
+	},
+	"get_vehicle_matrix": {
+		"body": "get_vehicle_matrix(${1:Vehicle handle})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "get_vehicle_matrix",
+		"scope": "source.lua"
+	},
+	"draw_text": {
+		"body": "draw_text(${1:string text},${2:float x},${3:float y},${4:[uint style},${5:float width},${6:float height},${7:uint align},${8:float wrap},${9:bool proportional},${10:bool justify},${11:int text_r},${12:int text_g},${13:int text_b},${14:int text_a},${15:uint outline},${16:uint shadow},${17:int shadow_r},${18:int shadow_g},${19:int shadow_b},${20:int shadow_a},${21:bool background},${22:int background_r},${23:int background_g},${24:int background_b},${25:int background_a]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "draw_text",
+		"scope": "source.lua"
+	},
+	"shape.new": {
+		"body": "shape.new()",
+		"description": "MoonAdditions\n\nreturn → Shape shape \n",
+		"prefix": "shape.new",
+		"scope": "source.lua"
+	},
+	"shape:draw": {
+		"body": "shape:draw(${1:uint prim_type},${2:bool enable_vertex_alpha},${3:uint src_blend},${4:uint dst_blend},${5:[Texture texture]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "shape:draw",
+		"scope": "source.lua"
+	},
+	"shape:add_vertex": {
+		"body": "shape:add_vertex(${1:float x},${2:float y},${3:int r},${4:int g},${5:int b},${6:int a},${7:[float u},${8:float v},${9:bool invert_x},${10:bool invert_y]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "shape:add_vertex",
+		"scope": "source.lua"
+	},
+	"shape:set_vertex": {
+		"body": "shape:set_vertex(${1:uint index},${2:float x},${3:float y},${4:int r},${5:int g},${6:int b},${7:int a},${8:[float u},${9:float v},${10:bool invert_x},${11:bool invert_y]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "shape:set_vertex",
+		"scope": "source.lua"
+	},
+	"shape:set_vertex": {
+		"body": "shape:set_vertex(${1:uint index},${2:Vertex vertex})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "shape:set_vertex",
+		"scope": "source.lua"
+	},
+	"shape:clear": {
+		"body": "shape:clear()",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "shape:clear",
+		"scope": "source.lua"
+	},
+	"shape.vertices_number": {
+		"body": "shape.vertices_number",
+		"description": "MoonAdditions\n\nreturn → uint vertices \n",
+		"prefix": "shape.vertices_number",
+		"scope": "source.lua"
+	},
+	"shape:rotate_vertex": {
+		"body": "shape:rotate_vertex(${1:uint index},${2:float around_x},${3:float around_y},${4:float angle})",
+		"description": "MoonAdditions\n\nreturn → bool result \n",
+		"prefix": "shape:rotate_vertex",
+		"scope": "source.lua"
+	},
+	"shape:rotate_vertices_range": {
+		"body": "shape:rotate_vertices_range(${1:uint from},${2:uint to},${3:float around_x},${4:float around_y},${5:float angle})",
+		"description": "MoonAdditions\n\nreturn → bool result \n",
+		"prefix": "shape:rotate_vertices_range",
+		"scope": "source.lua"
+	},
+	"shape:rotate_all_vertices": {
+		"body": "shape:rotate_all_vertices(${1:float around_x},${2:float around_y},${3:float angle})",
+		"description": "MoonAdditions\n\nreturn → bool result \n",
+		"prefix": "shape:rotate_all_vertices",
+		"scope": "source.lua"
+	},
+	"shape:get_vertex": {
+		"body": "shape:get_vertex(${1:uint index})",
+		"description": "MoonAdditions\n\nreturn → Vertex vertex \n",
+		"prefix": "shape:get_vertex",
+		"scope": "source.lua"
+	},
+	"vertex.x": {
+		"body": "vertex.x",
+		"description": "MoonAdditions\n\nreturn → float x \n",
+		"prefix": "vertex.x",
+		"scope": "source.lua"
+	},
+	"vertex.y": {
+		"body": "vertex.y",
+		"description": "MoonAdditions\n\nreturn → float y \n",
+		"prefix": "vertex.y",
+		"scope": "source.lua"
+	},
+	"vertex.z": {
+		"body": "vertex.z",
+		"description": "MoonAdditions\n\nreturn → float z \n",
+		"prefix": "vertex.z",
+		"scope": "source.lua"
+	},
+	"vertex.u": {
+		"body": "vertex.u",
+		"description": "MoonAdditions\n\nreturn → float u \n",
+		"prefix": "vertex.u",
+		"scope": "source.lua"
+	},
+	"vertex.v": {
+		"body": "vertex.v",
+		"description": "MoonAdditions\n\nreturn → float v \n",
+		"prefix": "vertex.v",
+		"scope": "source.lua"
+	},
+	"vertex.rhw": {
+		"body": "vertex.rhw",
+		"description": "MoonAdditions\n\nreturn → float rhw \n",
+		"prefix": "vertex.rhw",
+		"scope": "source.lua"
+	},
+	"vertex:set_color": {
+		"body": "vertex:set_color(${1:int r},${2:int g},${3:int b},${4:int aя})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "vertex:set_color",
+		"scope": "source.lua"
+	},
+	"vertex:get_color": {
+		"body": "vertex:get_color()",
+		"description": "MoonAdditions\n\nreturn → int r, int g, int b, int a \n",
+		"prefix": "vertex:get_color",
+		"scope": "source.lua"
+	},
+	"get_char_bone": {
+		"body": "get_char_bone(${1:Ped handle},${2:int bone_id})",
+		"description": "MoonAdditions\n\nreturn → Bone bone \n",
+		"prefix": "get_char_bone",
+		"scope": "source.lua"
+	},
+	"bone:get_pointer": {
+		"body": "bone:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "bone:get_pointer",
+		"scope": "source.lua"
+	},
+	"bone.matrix": {
+		"body": "bone.matrix",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "bone.matrix",
+		"scope": "source.lua"
+	},
+	"bone.vector": {
+		"body": "bone.vector",
+		"description": "MoonAdditions\n\nreturn → Vector3D vector \n",
+		"prefix": "bone.vector",
+		"scope": "source.lua"
+	},
+	"bone.quaternion": {
+		"body": "bone.quaternion",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "bone.quaternion",
+		"scope": "source.lua"
+	},
+	"matrix.new": {
+		"body": "matrix.new()",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "matrix.new",
+		"scope": "source.lua"
+	},
+	"matrix.new": {
+		"body": "matrix.new(${1:Matrix matrix})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "matrix.new",
+		"scope": "source.lua"
+	},
+	"matrix.new": {
+		"body": "matrix.new(${1:Vector right},${2:Vector up},${3:Vector at},${4:Vector pos})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "matrix.new",
+		"scope": "source.lua"
+	},
+	"matrix.new": {
+		"body": "matrix.new(${1:float right_x},${2:float right_y},${3:float right_z},${4:float up_x},${5:float up_y},${6:float up_z},${7:float at_x},${8:float at_y},${9:float at_z},${10:float pos_x},${11:float pos_y},${12:float pos_z})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "matrix.new",
+		"scope": "source.lua"
+	},
+	"matrix.from_quat": {
+		"body": "matrix.from_quat(${1:Quaternion quat})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "matrix.from_quat",
+		"scope": "source.lua"
+	},
+	"matrix.from_memory": {
+		"body": "matrix.from_memory(${1:uint matrix_ptr})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "matrix.from_memory",
+		"scope": "source.lua"
+	},
+	"matrix:get_pointer": {
+		"body": "matrix:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "matrix:get_pointer",
+		"scope": "source.lua"
+	},
+	"matrix:set": {
+		"body": "matrix:set(${1:Matrix matrix})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:set",
+		"scope": "source.lua"
+	},
+	"matrix:set": {
+		"body": "matrix:set(${1:Vector right},${2:Vector up},${3:Vector at},${4:Vector pos})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:set",
+		"scope": "source.lua"
+	},
+	"matrix:set": {
+		"body": "matrix:set(${1:float right_x},${2:float right_y},${3:float right_z},${4:float up_x},${5:float up_y},${6:float up_z},${7:float at_x},${8:float at_y},${9:float at_z},${10:float pos_x},${11:float pos_y},${12:float pos_z})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:set",
+		"scope": "source.lua"
+	},
+	"matrix:set_rotation_from_quat": {
+		"body": "matrix:set_rotation_from_quat(${1:Quaternion quat})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:set_rotation_from_quat",
+		"scope": "source.lua"
+	},
+	"matrix:rotate": {
+		"body": "matrix:rotate(${1:float x},${2:float y},${3:float z})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:rotate",
+		"scope": "source.lua"
+	},
+	"matrix:rotate_x": {
+		"body": "matrix:rotate_x(${1:float angle})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:rotate_x",
+		"scope": "source.lua"
+	},
+	"matrix:rotate_y": {
+		"body": "matrix:rotate_y(${1:float angle})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:rotate_y",
+		"scope": "source.lua"
+	},
+	"matrix:rotate_z": {
+		"body": "matrix:rotate_z(${1:float angle})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:rotate_z",
+		"scope": "source.lua"
+	},
+	"matrix:rotate_around_axis": {
+		"body": "matrix:rotate_around_axis(${1:float x},${2:float y},${3:float z},${4:float angle},${5:[int combine_op]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "matrix:rotate_around_axis",
+		"scope": "source.lua"
+	},
+	"matrix:get_coords_with_offset": {
+		"body": "matrix:get_coords_with_offset(${1:float x},${2:float y},${3:float z})",
+		"description": "MoonAdditions\n\nreturn → float x, float y, float z \n",
+		"prefix": "matrix:get_coords_with_offset",
+		"scope": "source.lua"
+	},
+	"matrix:get_relative_coords": {
+		"body": "matrix:get_relative_coords(${1:float x},${2:float y},${3:float z})",
+		"description": "MoonAdditions\n\nreturn → float x, float y, float z \n",
+		"prefix": "matrix:get_relative_coords",
+		"scope": "source.lua"
+	},
+	"matrix:get_angles": {
+		"body": "matrix:get_angles()",
+		"description": "MoonAdditions\n\nreturn → float x, float y, float z \n",
+		"prefix": "matrix:get_angles",
+		"scope": "source.lua"
+	},
+	"matrix:get_slerped": {
+		"body": "matrix:get_slerped(${1:Matrix matrix},${2:float t})",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "matrix:get_slerped",
+		"scope": "source.lua"
+	},
+	"matrix.right": {
+		"body": "matrix.right",
+		"description": "MoonAdditions\n\nreturn → Vector right \n",
+		"prefix": "matrix.right",
+		"scope": "source.lua"
+	},
+	"matrix.up": {
+		"body": "matrix.up",
+		"description": "MoonAdditions\n\nreturn → Vector up \n",
+		"prefix": "matrix.up",
+		"scope": "source.lua"
+	},
+	"matrix.at": {
+		"body": "matrix.at",
+		"description": "MoonAdditions\n\nreturn → Vector at \n",
+		"prefix": "matrix.at",
+		"scope": "source.lua"
+	},
+	"matrix.pos": {
+		"body": "matrix.pos",
+		"description": "MoonAdditions\n\nreturn → Vector pos \n",
+		"prefix": "matrix.pos",
+		"scope": "source.lua"
+	},
+	"matrix.flags": {
+		"body": "matrix.flags",
+		"description": "MoonAdditions\n\nreturn → uint flags \n",
+		"prefix": "matrix.flags",
+		"scope": "source.lua"
+	},
+	"quaternion.new": {
+		"body": "quaternion.new()",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quaternion.new",
+		"scope": "source.lua"
+	},
+	"quaternion.new": {
+		"body": "quaternion.new(${1:Quaternion quat})",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quaternion.new",
+		"scope": "source.lua"
+	},
+	"quaternion.new": {
+		"body": "quaternion.new(${1:Vector vec},${2:float w})",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quaternion.new",
+		"scope": "source.lua"
+	},
+	"quaternion.new": {
+		"body": "quaternion.new(${1:float x},${2:float y},${3:float z},${4:float w})",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quaternion.new",
+		"scope": "source.lua"
+	},
+	"quaternion.new": {
+		"body": "quaternion.new(${1:Matrix matrix})",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quaternion.new",
+		"scope": "source.lua"
+	},
+	"quat.from_euler": {
+		"body": "quat.from_euler(${1:float x},${2:float y},${3:float z})",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quat.from_euler",
+		"scope": "source.lua"
+	},
+	"Creates new quaternion object from the Euler angles.": {
+		"body": "Creates new quaternion object from the Euler angles.",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "Creates new quaternion object from the Euler angles.",
+		"scope": "source.lua"
+	},
+	"quaternion.from_memory": {
+		"body": "quaternion.from_memory(${1:uint quat_ptr})",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quaternion.from_memory",
+		"scope": "source.lua"
+	},
+	"quat:get_pointer": {
+		"body": "quat:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "quat:get_pointer",
+		"scope": "source.lua"
+	},
+	"quat:set": {
+		"body": "quat:set(${1:Quaternion quat})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "quat:set",
+		"scope": "source.lua"
+	},
+	"quat:set": {
+		"body": "quat:set(${1:Vector vec},${2:float w})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "quat:set",
+		"scope": "source.lua"
+	},
+	"quat:set": {
+		"body": "quat:set(${1:float x},${2:float y},${3:float z},${4:float w})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "quat:set",
+		"scope": "source.lua"
+	},
+	"quat:set": {
+		"body": "quat:set(${1:Matrix matrix})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "quat:set",
+		"scope": "source.lua"
+	},
+	"quat:get": {
+		"body": "quat:get()",
+		"description": "MoonAdditions\n\nreturn → float x, float y, float z, float w \n",
+		"prefix": "quat:get",
+		"scope": "source.lua"
+	},
+	"quat:rotate": {
+		"body": "quat:rotate(${1:float x},${2:float y},${3:float z},${4:float angle},${5:[int combine_op]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "quat:rotate",
+		"scope": "source.lua"
+	},
+	"quat:normalize": {
+		"body": "quat:normalize()",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "quat:normalize",
+		"scope": "source.lua"
+	},
+	"quat:get_normalized": {
+		"body": "quat:get_normalized()",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quat:get_normalized",
+		"scope": "source.lua"
+	},
+	"quat:get_slerped": {
+		"body": "quat:get_slerped(${1:Quaternion quat},${2:float t})",
+		"description": "MoonAdditions\n\nreturn → Quaternion quat \n",
+		"prefix": "quat:get_slerped",
+		"scope": "source.lua"
+	},
+	"quat:get_euler": {
+		"body": "quat:get_euler()",
+		"description": "MoonAdditions\n\nreturn → float x, float y, float z \n",
+		"prefix": "quat:get_euler",
+		"scope": "source.lua"
+	},
+	"quat.x": {
+		"body": "quat.x",
+		"description": "MoonAdditions\n\nreturn → float x \n",
+		"prefix": "quat.x",
+		"scope": "source.lua"
+	},
+	"quat.y": {
+		"body": "quat.y",
+		"description": "MoonAdditions\n\nreturn → float y \n",
+		"prefix": "quat.y",
+		"scope": "source.lua"
+	},
+	"quat.z": {
+		"body": "quat.z",
+		"description": "MoonAdditions\n\nreturn → float z \n",
+		"prefix": "quat.z",
+		"scope": "source.lua"
+	},
+	"quat.w": {
+		"body": "quat.w",
+		"description": "MoonAdditions\n\nreturn → float w \n",
+		"prefix": "quat.w",
+		"scope": "source.lua"
+	},
+	"textdraw.new": {
+		"body": "textdraw.new(${1:string text},${2:float visible},${3:float y})",
+		"description": "MoonAdditions\n\nreturn → Textdraw textdraw \n",
+		"prefix": "textdraw.new",
+		"scope": "source.lua"
+	},
+	"textdraw.visible": {
+		"body": "textdraw.visible",
+		"description": "MoonAdditions\n\nreturn → float visible \n",
+		"prefix": "textdraw.visible",
+		"scope": "source.lua"
+	},
+	"textdraw.y": {
+		"body": "textdraw.y",
+		"description": "MoonAdditions\n\nreturn → float y \n",
+		"prefix": "textdraw.y",
+		"scope": "source.lua"
+	},
+	"textdraw.width": {
+		"body": "textdraw.width",
+		"description": "MoonAdditions\n\nreturn → float width \n",
+		"prefix": "textdraw.width",
+		"scope": "source.lua"
+	},
+	"textdraw.height": {
+		"body": "textdraw.height",
+		"description": "MoonAdditions\n\nreturn → float height \n",
+		"prefix": "textdraw.height",
+		"scope": "source.lua"
+	},
+	"textdraw.wrap": {
+		"body": "textdraw.wrap",
+		"description": "MoonAdditions\n\nreturn → float wrap \n",
+		"prefix": "textdraw.wrap",
+		"scope": "source.lua"
+	},
+	"textdraw.style": {
+		"body": "textdraw.style",
+		"description": "MoonAdditions\n\nreturn → uint style \n",
+		"prefix": "textdraw.style",
+		"scope": "source.lua"
+	},
+	"textdraw.proportional": {
+		"body": "textdraw.proportional",
+		"description": "MoonAdditions\n\nreturn → bool proportional \n",
+		"prefix": "textdraw.proportional",
+		"scope": "source.lua"
+	},
+	"textdraw.justify": {
+		"body": "textdraw.justify",
+		"description": "MoonAdditions\n\nreturn → bool justify \n",
+		"prefix": "textdraw.justify",
+		"scope": "source.lua"
+	},
+	"textdraw.background": {
+		"body": "textdraw.background",
+		"description": "MoonAdditions\n\nreturn → bool background \n",
+		"prefix": "textdraw.background",
+		"scope": "source.lua"
+	},
+	"textdraw.outline": {
+		"body": "textdraw.outline",
+		"description": "MoonAdditions\n\nreturn → uint outline \n",
+		"prefix": "textdraw.outline",
+		"scope": "source.lua"
+	},
+	"textdraw.shadow": {
+		"body": "textdraw.shadow",
+		"description": "MoonAdditions\n\nreturn → uint shadow \n",
+		"prefix": "textdraw.shadow",
+		"scope": "source.lua"
+	},
+	"textdraw.alignment": {
+		"body": "textdraw.alignment",
+		"description": "MoonAdditions\n\nreturn → uint alignment \n",
+		"prefix": "textdraw.alignment",
+		"scope": "source.lua"
+	},
+	"textdraw.visible": {
+		"body": "textdraw.visible",
+		"description": "MoonAdditions\n\nreturn → bool visible \n",
+		"prefix": "textdraw.visible",
+		"scope": "source.lua"
+	},
+	"textdraw:set_text_color": {
+		"body": "textdraw:set_text_color(${1:int r},${2:int g},${3:int b},${4:int a})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "textdraw:set_text_color",
+		"scope": "source.lua"
+	},
+	"textdraw:set_background_color": {
+		"body": "textdraw:set_background_color(${1:int r},${2:int g},${3:int b},${4:int a})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "textdraw:set_background_color",
+		"scope": "source.lua"
+	},
+	"textdraw:set_shadow_color": {
+		"body": "textdraw:set_shadow_color(${1:int r},${2:int g},${3:int b},${4:int a})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "textdraw:set_shadow_color",
+		"scope": "source.lua"
+	},
+	"textdraw:get_text_color": {
+		"body": "textdraw:get_text_color()",
+		"description": "MoonAdditions\n\nreturn → int r, int g, int b, int a \n",
+		"prefix": "textdraw:get_text_color",
+		"scope": "source.lua"
+	},
+	"textdraw:get_background_color": {
+		"body": "textdraw:get_background_color()",
+		"description": "MoonAdditions\n\nreturn → int r, int g, int b, int a \n",
+		"prefix": "textdraw:get_background_color",
+		"scope": "source.lua"
+	},
+	"textdraw:get_shadow_color": {
+		"body": "textdraw:get_shadow_color()",
+		"description": "MoonAdditions\n\nreturn → int r, int g, int b, int a \n",
+		"prefix": "textdraw:get_shadow_color",
+		"scope": "source.lua"
+	},
+	"load_bmp_texture_with_mask": {
+		"body": "load_bmp_texture_with_mask(${1:string image_path},${2:string mask_path})",
+		"description": "MoonAdditions\n\nreturn → Texture texture \n",
+		"prefix": "load_bmp_texture_with_mask",
+		"scope": "source.lua"
+	},
+	"load_png_texture": {
+		"body": "load_png_texture(${1:string image_path})",
+		"description": "MoonAdditions\n\nreturn → Texture texture \n",
+		"prefix": "load_png_texture",
+		"scope": "source.lua"
+	},
+	"load_dds_texture": {
+		"body": "load_dds_texture(${1:string image_path})",
+		"description": "MoonAdditions\n\nreturn → Texture texture \n",
+		"prefix": "load_dds_texture",
+		"scope": "source.lua"
+	},
+	"texture.from_memory": {
+		"body": "texture.from_memory(${1:uint rwtexture_ptr})",
+		"description": "MoonAdditions\n\nreturn → Texture texture \n",
+		"prefix": "texture.from_memory",
+		"scope": "source.lua"
+	},
+	"texture:get_pointer": {
+		"body": "texture:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "texture:get_pointer",
+		"scope": "source.lua"
+	},
+	"texture:draw": {
+		"body": "texture:draw(${1:float left},${2:float top},${3:float right},${4:float bottom},${5:[int r},${6:int g},${7:int b},${8:int a},${9:float angle]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "texture:draw",
+		"scope": "source.lua"
+	},
+	"texture:draw_with_gradient": {
+		"body": "texture:draw_with_gradient(${1:float left},${2:float top},${3:float right},${4:float bottom},${5:[int r1},${6:int g1},${7:int b1},${8:int a1},${9:int r2},${10:int g2},${11:int b2},${12:int a2},${13:int r3},${14:int g3},${15:int b3},${16:int a3},${17:int r4},${18:int g4},${19:int b4},${20:int a4},${21:float angle]})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "texture:draw_with_gradient",
+		"scope": "source.lua"
+	},
+	"texture.width": {
+		"body": "texture.width",
+		"description": "MoonAdditions\n\nreturn → int width \n",
+		"prefix": "texture.width",
+		"scope": "source.lua"
+	},
+	"texture.height": {
+		"body": "texture.height",
+		"description": "MoonAdditions\n\nreturn → int height \n",
+		"prefix": "texture.height",
+		"scope": "source.lua"
+	},
+	"texture.name": {
+		"body": "texture.name",
+		"description": "MoonAdditions\n\nreturn → string name \n",
+		"prefix": "texture.name",
+		"scope": "source.lua"
+	},
+	"texture.valid": {
+		"body": "texture.valid",
+		"description": "MoonAdditions\n\nreturn → bool valid \n",
+		"prefix": "texture.valid",
+		"scope": "source.lua"
+	},
+	"get_vehicle_component": {
+		"body": "get_vehicle_component(${1:Vehicle handle},${2:string component_name})",
+		"description": "MoonAdditions\n\nreturn → VehicleComponent component \n",
+		"prefix": "get_vehicle_component",
+		"scope": "source.lua"
+	},
+	"get_vehicle_components": {
+		"body": "get_vehicle_components(${1:Vehicle handle})",
+		"description": "MoonAdditions\n\nreturn → table<VehicleComponent> components \n",
+		"prefix": "get_vehicle_components",
+		"scope": "source.lua"
+	},
+	"get_all_vehicle_components": {
+		"body": "get_all_vehicle_components(${1:Vehicle handle})",
+		"description": "MoonAdditions\n\nreturn → table<VehicleComponent> components \n",
+		"prefix": "get_all_vehicle_components",
+		"scope": "source.lua"
+	},
+	"vehicle_component.from_memory": {
+		"body": "vehicle_component.from_memory(${1:uint vehicle_ptr},${2:uint rwframe_ptr})",
+		"description": "MoonAdditions\n\nreturn → VehicleComponent component \n",
+		"prefix": "vehicle_component.from_memory",
+		"scope": "source.lua"
+	},
+	"component:get_pointer": {
+		"body": "component:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "component:get_pointer",
+		"scope": "source.lua"
+	},
+	"component.name": {
+		"body": "component.name",
+		"description": "MoonAdditions\n\nreturn → string name \n",
+		"prefix": "component.name",
+		"scope": "source.lua"
+	},
+	"component.matrix": {
+		"body": "component.matrix",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "component.matrix",
+		"scope": "source.lua"
+	},
+	"component.modeling_matrix": {
+		"body": "component.modeling_matrix",
+		"description": "MoonAdditions\n\nreturn → Matrix matrix \n",
+		"prefix": "component.modeling_matrix",
+		"scope": "source.lua"
+	},
+	"component:set_visibility": {
+		"body": "component:set_visibility(${1:int visibility_state})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "component:set_visibility",
+		"scope": "source.lua"
+	},
+	"component:set_alpha": {
+		"body": "component:set_alpha(${1:int alpha})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "component:set_alpha",
+		"scope": "source.lua"
+	},
+	"component.child": {
+		"body": "component.child",
+		"description": "MoonAdditions\n\nreturn → VehicleComponent component \n",
+		"prefix": "component.child",
+		"scope": "source.lua"
+	},
+	"component.parent": {
+		"body": "component.parent",
+		"description": "MoonAdditions\n\nreturn → VehicleComponent component \n",
+		"prefix": "component.parent",
+		"scope": "source.lua"
+	},
+	"component.next": {
+		"body": "component.next",
+		"description": "MoonAdditions\n\nreturn → VehicleComponent component \n",
+		"prefix": "component.next",
+		"scope": "source.lua"
+	},
+	"component:get_objects": {
+		"body": "component:get_objects()",
+		"description": "MoonAdditions\n\nreturn → table<VehicleAtomic> objects \n",
+		"prefix": "component:get_objects",
+		"scope": "source.lua"
+	},
+	"component:get_child_components": {
+		"body": "component:get_child_components()",
+		"description": "MoonAdditions\n\nreturn → table<VehicleComponent> components \n",
+		"prefix": "component:get_child_components",
+		"scope": "source.lua"
+	},
+	"vehicle_atomic_object.from_memory": {
+		"body": "vehicle_atomic_object.from_memory(${1:uint vehicle_ptr},${2:uint rpatomic_ptr})",
+		"description": "MoonAdditions\n\nreturn → VehicleAtomic object \n",
+		"prefix": "vehicle_atomic_object.from_memory",
+		"scope": "source.lua"
+	},
+	"object:get_pointer": {
+		"body": "object:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "object:get_pointer",
+		"scope": "source.lua"
+	},
+	"object:hide": {
+		"body": "object:hide(${1:bool hide})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "object:hide",
+		"scope": "source.lua"
+	},
+	"object:get_atomic_flag": {
+		"body": "object:get_atomic_flag(${1:uint flag})",
+		"description": "MoonAdditions\n\nreturn → bool value \n",
+		"prefix": "object:get_atomic_flag",
+		"scope": "source.lua"
+	},
+	"object:set_atomic_flag": {
+		"body": "object:set_atomic_flag(${1:uint flag},${2:bool value})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "object:set_atomic_flag",
+		"scope": "source.lua"
+	},
+	"object:get_materials": {
+		"body": "object:get_materials()",
+		"description": "MoonAdditions\n\nreturn → table<VehicleMaterial> materials \n",
+		"prefix": "object:get_materials",
+		"scope": "source.lua"
+	},
+	"vehicle_object_material.from_memory": {
+		"body": "vehicle_object_material.from_memory(${1:uint vehicle_ptr},${2:uint rpmaterial_ptr},${3:uint rpgeometry_ptr})",
+		"description": "MoonAdditions\n\nreturn → VehicleMaterial material \n",
+		"prefix": "vehicle_object_material.from_memory",
+		"scope": "source.lua"
+	},
+	"material:get_pointer": {
+		"body": "material:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "material:get_pointer",
+		"scope": "source.lua"
+	},
+	"material:set_color": {
+		"body": "material:set_color(${1:int r},${2:int g},${3:int b},${4:int a})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "material:set_color",
+		"scope": "source.lua"
+	},
+	"material:get_color": {
+		"body": "material:get_color()",
+		"description": "MoonAdditions\n\nreturn → int r, int g, int b, int a \n",
+		"prefix": "material:get_color",
+		"scope": "source.lua"
+	},
+	"material:reset_color": {
+		"body": "material:reset_color()",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "material:reset_color",
+		"scope": "source.lua"
+	},
+	"material:set_texture": {
+		"body": "material:set_texture(${1:Texture texture})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "material:set_texture",
+		"scope": "source.lua"
+	},
+	"material:get_texture": {
+		"body": "material:get_texture()",
+		"description": "MoonAdditions\n\nreturn → Texture texture \n",
+		"prefix": "material:get_texture",
+		"scope": "source.lua"
+	},
+	"material:reset_texture": {
+		"body": "material:reset_texture()",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "material:reset_texture",
+		"scope": "source.lua"
+	},
+	"load_txd": {
+		"body": "load_txd(${1:string file_path},${2:string name})",
+		"description": "MoonAdditions\n\nreturn → Txd txd \n",
+		"prefix": "load_txd",
+		"scope": "source.lua"
+	},
+	"get_txd": {
+		"body": "get_txd(${1:string name})",
+		"description": "MoonAdditions\n\nreturn → Txd txd \n",
+		"prefix": "get_txd",
+		"scope": "source.lua"
+	},
+	"get_txd": {
+		"body": "get_txd(${1:int id})",
+		"description": "MoonAdditions\n\nreturn → Txd txd \n",
+		"prefix": "get_txd",
+		"scope": "source.lua"
+	},
+	"txd.from_memory": {
+		"body": "txd.from_memory(${1:uint rwtexdictionary_ptr})",
+		"description": "MoonAdditions\n\nreturn → Txd txd \n",
+		"prefix": "txd.from_memory",
+		"scope": "source.lua"
+	},
+	"txd:get_pointer": {
+		"body": "txd:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "txd:get_pointer",
+		"scope": "source.lua"
+	},
+	"txd.id": {
+		"body": "txd.id",
+		"description": "MoonAdditions\n\nreturn → int id \n",
+		"prefix": "txd.id",
+		"scope": "source.lua"
+	},
+	"txd.name": {
+		"body": "txd.name",
+		"description": "MoonAdditions\n\nreturn → string name \n",
+		"prefix": "txd.name",
+		"scope": "source.lua"
+	},
+	"txd:get_texture": {
+		"body": "txd:get_texture(${1:string name})",
+		"description": "MoonAdditions\n\nreturn → Texture texture \n",
+		"prefix": "txd:get_texture",
+		"scope": "source.lua"
+	},
+	"vector3d.new": {
+		"body": "vector3d.new()",
+		"description": "MoonAdditions\n\nreturn → Vector vector \n",
+		"prefix": "vector3d.new",
+		"scope": "source.lua"
+	},
+	"vector3d.new": {
+		"body": "vector3d.new(${1:float x},${2:float y},${3:float z})",
+		"description": "MoonAdditions\n\nreturn → Vector vector \n",
+		"prefix": "vector3d.new",
+		"scope": "source.lua"
+	},
+	"vector3d.new": {
+		"body": "vector3d.new(${1:Vector vector})",
+		"description": "MoonAdditions\n\nreturn → Vector vector \n",
+		"prefix": "vector3d.new",
+		"scope": "source.lua"
+	},
+	"vector3d.from_memory": {
+		"body": "vector3d.from_memory(${1:uint vector_ptr})",
+		"description": "MoonAdditions\n\nreturn → Vector vector \n",
+		"prefix": "vector3d.from_memory",
+		"scope": "source.lua"
+	},
+	"vector:get_pointer": {
+		"body": "vector:get_pointer()",
+		"description": "MoonAdditions\n\nreturn → uint ptr \n",
+		"prefix": "vector:get_pointer",
+		"scope": "source.lua"
+	},
+	"vector.x": {
+		"body": "vector.x",
+		"description": "MoonAdditions\n\nreturn → float x \n",
+		"prefix": "vector.x",
+		"scope": "source.lua"
+	},
+	"vector.y": {
+		"body": "vector.y",
+		"description": "MoonAdditions\n\nreturn → float y \n",
+		"prefix": "vector.y",
+		"scope": "source.lua"
+	},
+	"vector.z": {
+		"body": "vector.z",
+		"description": "MoonAdditions\n\nreturn → float z \n",
+		"prefix": "vector.z",
+		"scope": "source.lua"
+	},
+	"vector:get": {
+		"body": "vector:get()",
+		"description": "MoonAdditions\n\nreturn → float x, float y, float z \n",
+		"prefix": "vector:get",
+		"scope": "source.lua"
+	},
+	"vector:set": {
+		"body": "vector:set(${1:float x},${2:float y},${3:float z})",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "vector:set",
+		"scope": "source.lua"
+	},
+	"vector:magnitude": {
+		"body": "vector:magnitude()",
+		"description": "MoonAdditions\n\nreturn → float value \n",
+		"prefix": "vector:magnitude",
+		"scope": "source.lua"
+	},
+	"vector:magnitude2d": {
+		"body": "vector:magnitude2d()",
+		"description": "MoonAdditions\n\nreturn → float value \n",
+		"prefix": "vector:magnitude2d",
+		"scope": "source.lua"
+	},
+	"vector:normalize": {
+		"body": "vector:normalize()",
+		"description": "MoonAdditions\n\nreturn → nil\n",
+		"prefix": "vector:normalize",
+		"scope": "source.lua"
+	},
+}
